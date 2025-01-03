@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stcle.css">
+    <title>my first web page</title>
+</head>
+
+<body>
+    <div class="nav">
+        <img src="https://jovian-py.readthedocs.io/en/latest/_images/jovian_horizontal_logo.svg" alt="logo" class="logo">
+
+        <hr>
+    </div>
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-one">
+    </div>
+    <div>
+        <h1>About jovin</h1>
+    </div>
+    <div class="about">
+        <div class="discripition">
+            <p id="about-space">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis cupiditate reprehenderit velit eveniet sint similique voluptate voluptates, dolores error reiciendis laudantium amet odio modi sequi tenetur magnam maxime, ut tempora.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <ol>
+                <li> <a href="aasaa" target="_blank"> jovin full stack developer bootcamp
+            </a>
+                </li>
+                <li><a href="sssss" target="_blank">jovin data science bootcamp  </a></li>
+            </ol>
+        </div>
+        <div class="team"> <img class="img-two" src="https://thelearningrooms.com/wps/wp-content/uploads/2015/02/team.jpg" alt=""></div>
+
+    </div>
+    <div>
+        <h2>Job Opportunites </h2>
+    </div>
+    <div class="job">
+        <table class="jobs-table">
+            <tr class="jobs-title">
+                <th rowspan="2">JOb title</th>
+                <th colspan="2">location</th>
+                <th rowspan="2">salary</th>
+                <th rowspan="2">posted on</th>
+            </tr>
+            <tr class="jobs-title">
+                <th>city</th>
+                <th>country</th>
+            </tr>
+
+
+            <tr class="data-row">
+                <td>frontend developer</td>
+                <td>bengaluru</td>
+                <td>india</td>
+                <td>12,00,000</td>
+                <td>march 3 2023</td>
+            </tr>
+            <tr class="data-row">
+                <td>full stack developer</td>
+                <td>new,delhi</td>
+                <td>india</td>
+                <td>15,00,000</td>
+                <td>feb 1 2023</td>
+            </tr>
+            <tr class="data-row">
+                <td>data scientist</td>
+                <td>san francisco </td>
+                <td>usa</td>
+                <td>$175.000</td>
+                <td>dec 22 2022</td>
+            </tr>
+            <tr class="data-row">
+                <td>machine learning engineer</td>
+                <td colspan="2">remote</td>
+                <td>$800.000</td>
+                <td>sep 19 2022</td>
+            </tr>
+
+
+        </table>
+        <div>
+            <h2 class="application">submit your application</h2>
+            <form class="application-fron">
+                <div class="from">
+                    <label for="name">full name</label><br>
+                    <input type="text" id="name" name="full name" placeholder="john wick" required>
+                </div>
+                <div class="from">
+                    <label for="email">email</label><br>
+                    <input type="email" id="email" name="email" placeholder="johnwhick@gmail.com" required>
+                </div>
+                <div>
+                    <label for="phone">phone</label><br>
+                    <input type="tel" placeholder="+919858987688" id="phone" name="phone" max="10">
+                </div>
+                <div class="from">
+                    <label for="dob">date of birth</label><br>
+                    <input type="date">
+                </div>
+                <div class="from">
+                    <label for="position ">posation applied for</label> <br>
+
+                    <select id="position" name="position aplied" required>
+                        <option value="">selection option</option>
+                        <option value="frontend"> frontend" developer </option>
+                        <option value="full stack " > full stack developer</option>
+                        <option value=" scientist"> data scientist</option>
+                        <option  value="ml engineer"> ml engineer</option>
+                    </select>
+                    <div class="from">
+                        <label for="file">uplode resume</label><br>
+                        <input type="file" id="file " required>
+                    </div>
+                </div>
+                <div class="from">
+                    <label for="cover">cover later</label><br>
+                    <textarea name="cover" id="cover" placeholder="hey iam john wick i am searching for job  "></textarea>
+                </div>
+                <div class="from">
+                    <label for="check-box">
+                    <input type="checkbox" name="check-box" id="check-box" required>  i agree to teams and condition
+                </label>
+
+                </div>
+                <div class="submit">
+                    <input id="submit" type="submit" value="submit  application">
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul class="footer-link">
+            <li><a target="_blank" href="courses ">courses</a></li>
+            <li><a target="_blank" href="program">program</a></li>
+            <li><a target="_blank" href="youtub">youtub</a></li>
+        </ul>
+        <span style="color: gray;">© coppyright by jovin
+        </span>
+    </div>
+</body>
+
+</html>
